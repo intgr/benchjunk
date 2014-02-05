@@ -1,0 +1,1 @@
+explain select * from tenk1 a join tenk1 b using (unique1) join tenk1 c using (unique1) join tenk1 d using (unique1) join tenk1 e using (unique1) join tenk1 f using (unique1) join tenk1 g using (unique1) join tenk1 h using (unique1) join tenk1 i using (unique1) join tenk1 j using (unique1);

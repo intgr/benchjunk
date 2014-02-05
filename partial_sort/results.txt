@@ -1,0 +1,68 @@
+PostgreSQL @ git ac8bc3b
+join5.sql tps = 499.490173 (excluding connections establishing)
+join5.sql tps = 503.756335 (excluding connections establishing)
+join5.sql tps = 504.814072 (excluding connections establishing)
+star5.sql tps = 492.799230 (excluding connections establishing)
+star5.sql tps = 492.570615 (excluding connections establishing)
+star5.sql tps = 491.949985 (excluding connections establishing)
+line5.sql tps = 773.945050 (excluding connections establishing)
+line5.sql tps = 773.858068 (excluding connections establishing)
+line5.sql tps = 774.551240 (excluding connections establishing)
+lim_join5.sql tps = 392.539745 (excluding connections establishing)
+lim_join5.sql tps = 391.867549 (excluding connections establishing)
+lim_join5.sql tps = 393.361655 (excluding connections establishing)
+lim_star5.sql tps = 418.431804 (excluding connections establishing)
+lim_star5.sql tps = 419.258985 (excluding connections establishing)
+lim_star5.sql tps = 419.434697 (excluding connections establishing)
+lim_line5.sql tps = 713.852506 (excluding connections establishing)
+lim_line5.sql tps = 713.636694 (excluding connections establishing)
+lim_line5.sql tps = 712.971719 (excluding connections establishing)
+limord_join5.sql tps = 381.068465 (excluding connections establishing)
+limord_join5.sql tps = 380.379359 (excluding connections establishing)
+limord_join5.sql tps = 381.182385 (excluding connections establishing)
+limord_star5.sql tps = 412.997935 (excluding connections establishing)
+limord_star5.sql tps = 411.401352 (excluding connections establishing)
+limord_star5.sql tps = 413.209784 (excluding connections establishing)
+limord_line5.sql tps = 688.906406 (excluding connections establishing)
+limord_line5.sql tps = 689.445483 (excluding connections establishing)
+limord_line5.sql tps = 688.758042 (excluding connections establishing)
+
+git ac8bc3b + partial-sort-7.patch.gz
+join5.sql tps = 479.508034 (excluding connections establishing)
+join5.sql tps = 488.263674 (excluding connections establishing)
+join5.sql tps = 490.127433 (excluding connections establishing)
+star5.sql tps = 482.106063 (excluding connections establishing)
+star5.sql tps = 484.179687 (excluding connections establishing)
+star5.sql tps = 483.027372 (excluding connections establishing)
+line5.sql tps = 758.092993 (excluding connections establishing)
+line5.sql tps = 759.697814 (excluding connections establishing)
+line5.sql tps = 759.792792 (excluding connections establishing)
+lim_join5.sql tps = 375.517211 (excluding connections establishing)
+lim_join5.sql tps = 375.539109 (excluding connections establishing)
+lim_join5.sql tps = 375.841645 (excluding connections establishing)
+lim_star5.sql tps = 407.683110 (excluding connections establishing)
+lim_star5.sql tps = 407.414409 (excluding connections establishing)
+lim_star5.sql tps = 407.526613 (excluding connections establishing)
+lim_line5.sql tps = 699.905101 (excluding connections establishing)
+lim_line5.sql tps = 700.349675 (excluding connections establishing)
+lim_line5.sql tps = 700.661762 (excluding connections establishing)
+limord_join5.sql tps = 364.607236 (excluding connections establishing)
+limord_join5.sql tps = 364.367705 (excluding connections establishing)
+limord_join5.sql tps = 363.694065 (excluding connections establishing)
+limord_star5.sql tps = 397.036792 (excluding connections establishing)
+limord_star5.sql tps = 397.197359 (excluding connections establishing)
+limord_star5.sql tps = 395.797940 (excluding connections establishing)
+limord_line5.sql tps = 680.907397 (excluding connections establishing)
+limord_line5.sql tps = 682.206481 (excluding connections establishing)
+limord_line5.sql tps = 681.210267 (excluding connections establishing)
+
+overhead added by patch:
+join5.sql 2.9%
+star5.sql 1.7%
+line5.sql 1.9%
+lim_join5.sql 4.5%
+lim_star5.sql 2.8%
+lim_line5.sql 1.8%
+limord_join5.sql 4.3%
+limord_star5.sql 3.9%
+limord_line5.sql 1.0%
