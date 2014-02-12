@@ -66,3 +66,75 @@ lim_line5.sql 1.8%
 limord_join5.sql 4.3%
 limord_star5.sql 3.9%
 limord_line5.sql 1.0%
+
+----
+
+git 48870dd
+join5.sql tps = 509.328070 (excluding connections establishing)
+join5.sql tps = 509.772190 (excluding connections establishing)
+join5.sql tps = 510.651517 (excluding connections establishing)
+star5.sql tps = 499.208698 (excluding connections establishing)
+star5.sql tps = 498.200314 (excluding connections establishing)
+star5.sql tps = 496.269315 (excluding connections establishing)
+line5.sql tps = 797.968831 (excluding connections establishing)
+line5.sql tps = 797.011690 (excluding connections establishing)
+line5.sql tps = 796.379258 (excluding connections establishing)
+lim_join5.sql tps = 394.946024 (excluding connections establishing)
+lim_join5.sql tps = 395.417689 (excluding connections establishing)
+lim_join5.sql tps = 395.482958 (excluding connections establishing)
+lim_star5.sql tps = 423.434393 (excluding connections establishing)
+lim_star5.sql tps = 423.774305 (excluding connections establishing)
+lim_star5.sql tps = 424.386099 (excluding connections establishing)
+lim_line5.sql tps = 733.007330 (excluding connections establishing)
+lim_line5.sql tps = 731.794731 (excluding connections establishing)
+lim_line5.sql tps = 732.356280 (excluding connections establishing)
+limord_join5.sql tps = 385.317921 (excluding connections establishing)
+limord_join5.sql tps = 385.915870 (excluding connections establishing)
+limord_join5.sql tps = 384.747848 (excluding connections establishing)
+limord_star5.sql tps = 417.992615 (excluding connections establishing)
+limord_star5.sql tps = 416.944685 (excluding connections establishing)
+limord_star5.sql tps = 418.262647 (excluding connections establishing)
+limord_line5.sql tps = 708.979203 (excluding connections establishing)
+limord_line5.sql tps = 710.926866 (excluding connections establishing)
+limord_line5.sql tps = 710.928907 (excluding connections establishing)
+
+48870dd + partial-sort-basic-1.patch.gz + fix-cost_sort.patch
+join5.sql tps = 505.488181 (excluding connections establishing)
+join5.sql tps = 507.222759 (excluding connections establishing)
+join5.sql tps = 506.549654 (excluding connections establishing)
+star5.sql tps = 495.432915 (excluding connections establishing)
+star5.sql tps = 494.906793 (excluding connections establishing)
+star5.sql tps = 492.623808 (excluding connections establishing)
+line5.sql tps = 789.315968 (excluding connections establishing)
+line5.sql tps = 793.875456 (excluding connections establishing)
+line5.sql tps = 790.545990 (excluding connections establishing)
+lim_join5.sql tps = 396.956732 (excluding connections establishing)
+lim_join5.sql tps = 397.515213 (excluding connections establishing)
+lim_join5.sql tps = 397.578669 (excluding connections establishing)
+lim_star5.sql tps = 417.459963 (excluding connections establishing)
+lim_star5.sql tps = 418.024803 (excluding connections establishing)
+lim_star5.sql tps = 418.830234 (excluding connections establishing)
+lim_line5.sql tps = 729.186915 (excluding connections establishing)
+lim_line5.sql tps = 726.288788 (excluding connections establishing)
+lim_line5.sql tps = 728.123296 (excluding connections establishing)
+limord_join5.sql tps = 383.484767 (excluding connections establishing)
+limord_join5.sql tps = 383.021960 (excluding connections establishing)
+limord_join5.sql tps = 383.722051 (excluding connections establishing)
+limord_star5.sql tps = 414.138460 (excluding connections establishing)
+limord_star5.sql tps = 414.063766 (excluding connections establishing)
+limord_star5.sql tps = 416.130110 (excluding connections establishing)
+limord_line5.sql tps = 706.002589 (excluding connections establishing)
+limord_line5.sql tps = 705.632796 (excluding connections establishing)
+limord_line5.sql tps = 704.991305 (excluding connections establishing)
+
+Overhead percentages (between best of each 3 runs):
+join5.sql 0.7
+star5.sql 0.8
+line5.sql 0.5
+lim_join5.sql -0.5
+lim_star5.sql 1.3
+lim_line5.sql 0.5
+limord_join5.sql 0.6
+limord_star5.sql 0.5
+limord_line5.sql 0.7
+
